@@ -1,0 +1,19 @@
+# Relational Database
+
+Provide the possibility to create a relational database managed by AWS, multi AZ with scaling capability.
+
+## Supported Engines
+
+- MySQL
+- PostgreSQL
+- MariaDB
+- Orable BYOL
+- SQL Server
+
+## AutoScaling
+
+RDS detect when it's running out of free storage and scale automatically, avoiding manual scaling.
+
+## Read Replica
+
+Provide up to 15 replicas AZ, Cross AZ or Cross Region, replication is async so reads are *eventually consistent*
