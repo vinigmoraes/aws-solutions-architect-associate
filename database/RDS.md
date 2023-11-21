@@ -10,6 +10,10 @@ Provide the possibility to create a relational database managed by AWS, multi AZ
 - Orable BYOL
 - SQL Server
 
+## Storage
+
+RDS storage capacity is up to 64T
+
 ## AutoScaling
 
 RDS detect when it's running out of free storage and scale automatically, avoiding manual scaling.
