@@ -20,4 +20,4 @@ RDS detect when it's running out of free storage and scale automatically, avoidi
 
 ## Read Replica
 
-Provide up to 15 replicas AZ, Cross AZ or Cross Region, replication is async so reads are *eventually consistent*
+Provide up to 7 replicas AZ, Cross AZ or Cross Region, replication is async so reads are *eventually consistent*

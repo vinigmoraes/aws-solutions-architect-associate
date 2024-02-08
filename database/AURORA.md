@@ -10,7 +10,11 @@ Aurora support two engines *PostgreSQL* and *MySQL*
 
 Aurora can provide up to 15 replicas of read multi AZ or Cross Region, when a replica is created Aurora enable a endpoint to consume replica data however consuming a replica data has the possibility of **eventual consistency** duo to replication factor, to avoid this situation consider to consume the endpoint of master in the cluster.
 
-## 
+## High Availability
+Provide up to 7 replicas AZ, Cross AZ or Cross Region, replication is async so reads are *eventually consistent*
+
+## Storage
+RDS storage capacity is up to 128T
 
 ## Advantages
 - High Availability & Disaster Recovery
