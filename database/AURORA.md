@@ -4,7 +4,12 @@
 
 It's a Cluster of Global Scale Relational Database managed and available by AWS, it's provide up to 128T of storage double of RDS (64T) and has 30% more performance than RDS.
 
-Aurora support two engines *PostgreSQL* and *MySQL*
+## Engines
+
+Aurora supported engines:
+
+- PostgreSQL
+- MySQL
 
 ## Replica
 

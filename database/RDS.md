@@ -1,4 +1,8 @@
-# Relational Database
+# Relation Database Service - RDS
+
+![RDS](images/rds.png)
+
+## Description
 
 Provide the possibility to create a relational database managed by AWS, multi AZ with scaling capability.
 
@@ -14,10 +18,10 @@ Provide the possibility to create a relational database managed by AWS, multi AZ
 
 RDS storage capacity is up to 64T
 
+## Availability
+
+Provide up 6 replicas between maximo of 3 regions (Cross Region), when usigin replication factor consequentily we have **eventually consistent data** on the read replicas.
+
 ## AutoScaling
 
 RDS detect when it's running out of free storage and scale automatically, avoiding manual scaling.
-
-## Read Replica
-
-Provide up to 7 replicas AZ, Cross AZ or Cross Region, replication is async so reads are *eventually consistent*
